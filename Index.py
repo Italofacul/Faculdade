@@ -4,7 +4,7 @@ from tkinter import PhotoImage
 janela = tk.Tk()
 janela.title("Botões com Imagens")
 
-imagens = [f'img\imagem{i+1}.png' for i in range(10)]
+imagens = [f'imagem{i+1}.png' for i in range(10)]
 
 imagens_carregadas = []
 
